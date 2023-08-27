@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.content {
+    flex: 1; /* El contenido toma el espacio restante */
+    padding: 20px;
+    padding-left: 18vw;
+}

@@ -1,0 +1,10 @@
+<div class="side-bar">
+    <div class="logo">Logo</div>
+    <ul>
+        <a class="vistas" routerLink="home" [ngClass]="{'active': option ==='home'}" (click)="vista('home')"><li>Home</li></a>
+
+        <a class="vistas" routerLink="vista1" [ngClass]="{'active': option ==='vista1'}" (click)="vista('vista1')"><li>Vista 1</li></a>
+
+        <a class="vistas" routerLink="vista2" [ngClass]="{'active': option ==='vista2'}" (click)="vista('vista2')"><li>Vista 2</li></a>
+    </ul>
+</div>

@@ -1,0 +1,46 @@
+.card {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 300px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-details {
+    padding: 15px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+}
+
+.flag img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.country-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.country-info h2,
+.country-info p {
+    margin: 0;
+}
+
+.country-info h2 {
+    font-size: 18px;
+}
+
+.country-info p {
+    font-size: 14px;
+    color: #555;
+}

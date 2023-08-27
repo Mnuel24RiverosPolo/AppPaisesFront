@@ -1,0 +1,40 @@
+.side-bar{
+    background-color: red;
+    width: 15vw;
+    text-align: center;
+    height: 100%;
+    padding: 1rem;
+    margin: 0;
+    position: fixed;
+}
+.logo{
+    margin: 20px;
+    padding: 2rem;
+    border-radius: 7.5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.7rem;
+    background-color: black;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    border-radius: 7.5px;
+    background-color: transparent;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+ul{
+    padding: 0;
+    margin: 20px;
+    text-align: left;
+}
+.vistas{
+    width: 100%;
+    background-color: transparent;
+}
+.vistas.active li {
+    background: black;
+    color: white;
+    transition: color 0.5s;
+}
